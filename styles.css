@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('CaF!EN(bg)2.png');
+    background-image: url(https://images.pexels.com/photos/2813132/pexels-photo-2813132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -14,25 +14,26 @@ body {
     background-repeat: no-repeat;
 }
 
-.navbar {
+.navbar{
     display: flex;
     background-color: rgba(0, 0, 0, 0.575);
     color: #fdfcfb;
     justify-content: start;
     padding: 15px;
+    box-shadow: 0 3px 3px rgba(163, 156, 156, 0.1);
+    padding-bottom: 0;
     gap: 100px;
     padding-left: 200px;
     font-weight: 200;
-}
-
-.navigation {
+  }
+  
+  .navigation{
     position: relative;
-    top: 0.6rem;
+    top:0.7rem;
     font-family: fantasy;
-    font-size: x-large;
-    color: white;
-    left: 12.6rem;
-}
+    font-size: x-large ;
+    color: #ddd;
+  }
 
 .container-fluid {
     height: 65px;
