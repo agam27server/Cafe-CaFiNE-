@@ -170,8 +170,21 @@
     font-family:SoDoSans_Semibold, Helvetica, sans-serif;
 }
 
+.out-stock{
+    background-color: #00000075;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+.out-stock:hover{
+    background-color: #494948;
+}
+
 .add-item-button {
-    background-color: #603601;
+    background-color: #614016;
     color: #fff;
     border: none;
     border-radius: 40px;
@@ -181,7 +194,7 @@
 }
 
 .add-item-button:hover{
-    background-color: #2e1900;
+    background-color: #422501;
 }
 
 .card:hover {
